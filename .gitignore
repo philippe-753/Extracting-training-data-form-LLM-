@@ -208,3 +208,6 @@ __marimo__/
 
 # Ignore .ini files
 mypy.ini
+
+wiki_dataset/*
+logs/*
