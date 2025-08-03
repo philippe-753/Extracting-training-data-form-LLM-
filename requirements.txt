@@ -2,3 +2,7 @@ openai
 numpy
 matplotlib
 dotenv
+datasets<4.0
+pysais
+zstandard
+
