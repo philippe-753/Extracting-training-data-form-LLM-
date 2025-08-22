@@ -34,7 +34,7 @@ This project reproduces the main ideas from the paper:
 - Constructed JSONL dataset for supervised fine-tuning.  
 
 ### 3. Evaluation
-- **Memorization Rate**: Fine-tuned model memorized ~0.4% of tokens (vs. 0% baseline GPT-3.5).  
+- **Memorization Rate**: Fine-tuned model memorized rate.
 - **Targeted Extraction**: With specific prompts, model occasionally produced strings resembling private keys, emails, or phone numbers.  
 - **Example**: Extracted a phone number appearing to belong to a private company.  
 
