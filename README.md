@@ -1,7 +1,7 @@
 # Replicating "Scalable Extraction of Training Data from Aligned, Production Language Models"
 
 This repository explores and partially replicates the key results from  
-**Carlini et al. (2023): Scalable Extraction of Training Data from Aligned, Production Language Models**.  
+**Carlini et al. (2025): Scalable Extraction of Training Data from Aligned, Production Language Models**.  
 
 <p align="center">
   <img src="images/main_paper_image.png" alt="Extracting pre-training data from aligned models" width="650"/>
@@ -12,7 +12,7 @@ This repository explores and partially replicates the key results from
 ## 📖 Overview
 
 Large language models (LLMs) are fine-tuned with alignment techniques to prevent unsafe or private data leakage.  
-However, Carlini et al. (2023) show that alignment can be *partially undone*, making it possible to extract memorized pretraining data.  
+However, Carlini et al. (2025) show that alignment can be *partially undone*, making it possible to extract memorized pretraining data.  
 
 This project reproduces the main ideas from the paper:
 
@@ -42,9 +42,10 @@ This project reproduces the main ideas from the paper:
 
 ## 📊 Results Summary
 
-- Our small-scale replication supports the **directional findings** of Carlini et al. (2023).  
+- Our small-scale replication supports the **directional findings** of Carlini et al. (2025).  
 - Fine-tuning increases the likelihood of memorization and sensitive-looking outputs.  
-- Absolute rates (0.4%) are much lower than the paper’s 16% due to limited dataset scale.  
+- Absolute rates (0.4%) are much lower than the paper’s 16% due using a much smaller dataset.  
+- We find private information such as emails, phone numbers and even private bitcoin keys.
 
 ---
 
@@ -61,15 +62,15 @@ This project reproduces the main ideas from the paper:
 
 - **`images/`** — Extracted examples (e.g., phone numbers, prompts, visualizations).  
 
-- **`main_paper_image.png`** — Central figure from *Carlini et al. (2023)* used in this README.  
+- **`main_paper_image.png`** — Central figure from *Carlini et al. (2025)* used in this README.  
 
 
 ---
 
 ## 📚 Reference
 
-Carlini, N., Ippolito, D., Jagielski, M., Lee, K., Tramèr, F., & Zhang, C. (2023).  
-**Scalable Extraction of Training Data from Aligned, Production Language Models.**  
+Carlini, N., Ippolito, D., Jagielski, M., Lee, K., Tramèr, F., & Zhang, C. (2025).  
+**Scalable Extraction of Training Data from Aligned, Production Language Models**  
 *arXiv preprint arXiv:2311.17035*.  
 [[Paper Link]](https://arxiv.org/abs/2311.17035)
 
